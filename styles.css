@@ -1,0 +1,480 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0;
+	color: #eaeaea;
+}
+
+body {
+	background-image: url("img/travinki-cvetok-goluboy-bliki.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+	height: 100%;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.header {
+	width: 1100px;
+	height: 70px;
+	margin: 25px 50px 75px 50px;
+	display: inline-block;
+}
+
+.start {
+    font-size: 40px;
+    padding: 0 50px 0 0;
+    position: fixed;
+}
+
+.login {
+    font-size: 25px;
+    padding: 0 5px 20px 0;
+    position: fixed;
+    left: 1000px;
+}
+
+.header img {
+	border: 1px solid #eaeaea;
+	position: fixed;
+	left: 1080px;
+}
+
+.container {
+	width: 3000px;
+	height: 700px;
+	margin: 0 50px 0 50px;
+}
+
+.part {
+	width: 520px;
+	height: 700px;
+	display: inline-block;
+	margin: 0 50px 0 0;
+	vertical-align: top;	
+}
+
+.part_small {
+	width: 260px;
+}
+
+.part3 {
+	width: 520px;
+}
+
+.square {
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0 10px 10px 0;
+	background: linear-gradient(to top left, #00A779, #006D4F);
+}
+
+.rectangle {
+	width: 250px;
+}
+
+.squareIE {
+	background-color: rgb(0, 171, 220);
+	background-image: url("img/ie_logo_w.png");
+	background-position: center center;
+	background-size: 60%;
+	background-repeat: no-repeat;
+}
+
+.IE {
+	font-size: 13px;
+	position: relative;
+	top: 96px;
+}
+
+.square_store {
+	background-image: url("img/store.jpg");
+	background-color: rgb(255, 114, 22);
+	background-position: center center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.store {
+	font-size: 13px;
+	position: relative;
+	top: 96px;
+	right: 35px;
+}
+
+.square_news {
+	background-image: url("img/news.png");
+	background-color: rgb(222, 144, 20);
+	background-position: 5% 47%;
+	background-size: 30%;
+	background-repeat: no-repeat;
+}
+
+.news {
+	font-size: 25px;
+	position: relative;
+	top: 45px;
+}
+
+.square_control {
+	background-image: url("img/control.png");
+	background-color: rgb(3, 185, 225);
+	background-position: center center;
+	background-size: 60%;
+	background-repeat: no-repeat;
+}
+
+.control {
+	font-size: 13px;
+	position: relative;
+	top: 96px;
+	right: 15px;
+}
+
+.squareWE {
+	background: linear-gradient(to top left, #00A779, #006D4F);
+	text-align: left;
+}
+
+.W {
+	font-size: 13px;
+	vertical-align: top;
+	line-height: 3;
+	padding-left: 10px;
+}
+
+.E {
+	font-size: 13px;
+    vertical-align: top;
+	line-height: 0;
+	padding: 0 20px 0 10px;
+}
+
+.squareWE img {
+	position: relative;
+	top: 52px;
+	right: 66px;
+}
+
+.square_tweet {
+	background-image: url("img/tweet.png");
+	background-color: rgb(4, 70, 131);
+	background-position: 18px 26px;
+	background-size: 25%;
+	background-repeat: no-repeat;
+	vertical-align: top;
+}
+
+.tweet {
+	font-size: 20px;
+	vertical-align: top;
+	line-height: 6;
+	padding-left: 60px;
+}
+
+.square_desktop {
+	background-image: url("img/desk.jpg");
+	background: cover;
+}
+
+.desktop {
+	font-size: 13px;
+	position: relative;
+	top: 96px;
+	right: 94px;
+}
+
+.square_stocks {
+	background-color: rgb(91, 182, 16);
+	background-image: url("img/stocks1.png");
+	background-repeat: no-repeat;
+	background-position: 20px 20px;
+}
+
+.stocks {
+	font-size: 25px;
+	position: relative;
+	top: 40px;
+	left: 15px;
+}
+
+.square_weather {
+	background-color: rgb(1, 178, 222);
+	background-image: url("img/weather1.png");
+	background-repeat: no-repeat;
+	background-position: 15px 25px;
+}
+
+.weather {
+	font-size: 25px;
+	position: relative;
+	top: 40px;
+	left: 27px;
+}
+
+.square_build {
+	background-image: url("img/build2.png");
+	background-color: rgb(93, 185, 16);
+
+}
+
+.build {
+	font-size: 55px;
+	position: relative;
+	top: 10px;
+	right: 5px;
+}
+
+.square_social {
+	background-image: url("img/social.png");
+	background-color: #b31e3b;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.social {
+	font-size: 13px;
+	position: relative;
+	top: 96px;
+	right: 93px;
+}
+
+.square_visual {
+	height: 110px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.square_visual p {
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.square_visual img {
+    position: relative;
+	top: 32px;
+	left: 5px;
+}
+
+.square_developer {
+	height: 110px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.square_developer p {
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.square_developer img {
+    position: relative;
+	top: 36px;
+	left: 5px;
+}
+
+.square_micro {
+	height: 110px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.square_micro p {
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.square_micro img {
+    position: relative;
+	top: 21px;
+	left: 3px;
+}
+
+.square_remote {
+	height: 110px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.square_remote p {
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.square_remote img {
+    position: relative;
+	top: 38px;
+
+}
+
+.square_task {
+	height: 110px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.square_task p {
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.square_task img {
+    position: relative;
+	top: 35px;
+}
+
+.square_kit {
+	height: 110px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.square_kit p {
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.square_kit img {
+    position: relative;
+	top: 21px;
+	left: 3px;
+}
+
+.square_comp {
+	height: 110px;
+	text-align: left;
+	padding-top: 10px; 
+}
+
+.square_comp p {
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+.square_comp img {
+    position: relative;
+	top: 52px;
+	left: 3px;
+}
+
+.square_remote_desktop {
+	background-color: #e6b600;
+	background-image: url("img/rd.png");
+	background-position: center center;
+	background-size: 90%;
+	background-repeat: no-repeat; 
+}
+
+.rd {
+	font-size: 13px;
+	position: relative;
+	top: 95px;
+}
+
+.square_piano {
+	background-image: url('img/piano.jpg');
+	background: cover;
+}
+
+.square_5 {
+	background-image: url('img/5.jpg');
+	background: cover;
+}
+
+.square_alarm {
+	background-color: #cd3544;
+	background-image: url("img/alarm.png");
+	background-position: 8% 53%;
+	background-size: 29%;
+	background-repeat: no-repeat;
+}
+
+.alarm {
+	font-size: 25px;
+	position: relative;
+	top: 45px;
+	padding-left: 21px;
+}
+
+.square_paint {
+	background-image: url("img/paintplay.jpg");
+	background: cover;
+}
+
+.square_zero {
+	background-image: url("img/zero.jpg");
+	background: cover;
+}
+
+.square_M {
+	background-image: url("img/M.jpg");
+	background: cover;
+}
+
+.square_mopod {
+	background-image: url("img/mopod.jpg");
+	background: cover;
+}
+
+.square_labyrinth {
+	background-color: #fefdfb;
+	background-image: url("img/labyrinth.png");
+	background-position: 60% 42%;
+	background-size: 64%;
+	background-repeat: no-repeat;
+}
+
+.labyrinth {
+	font-size: 18px;
+	color: #4694c5;
+	position: relative;
+	top: 80px;
+}
+
+.square_tree {
+	background-image: url("img/Tree.jpg");
+	background: cover;
+}
+
+.square_pic {
+	background-image: url("img/picstream.jpg");
+	background: cover;
+}
+
+.square_rider {
+	background-image: url("img/rider.jpg");
+	background: cover;
+}
+
+.square_puzzle {
+	background-color: #2b4663;
+	background-image: url("img/puzzle.jpg");
+	background-position: 52% 42%;
+	background-size: 58%;
+	background-repeat: no-repeat;
+}
+
+.puzzle {
+	font-size: 12px;
+	position: relative;
+	top: 101px;
+	right: 20px;
+}
+
+.square_near {
+	background-color: #1f0745;
+	background-image: url("img/near.jpg");
+	background-repeat: no-repeat;
+}
+
+.near {
+	font-size: 12px;
+	position: relative;
+	top: 101px;
+	right: 25px;
+}
